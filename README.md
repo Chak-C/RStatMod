@@ -19,9 +19,10 @@ To get started with this project, follow the steps below:
 
     Install RStudio on your machine (if not already installed).
     Clone or download the project repository from GitHub.
-    Open the project in RStudio.
-    Install the necessary packages and dependencies mentioned in the project's documentation or requirements.txt file.
-    Load the dataset into RStudio and perform the required data preprocessing steps.
+    Open the project in RStudio, running .Rmd is suggested for best exmaination of code style. If Rmd is not installed, the auto-generated .R file delievers the same output.
+    Modify the path to the 'Data' folder as necessary in line 41 (for .R file) or line 63 (for .Rmd file)
     Implement the regression models using the appropriate techniques based on your project requirements.
-    Evaluate the performance of the models and interpret the results.
-    Use RStudio's visualization capabilities to create informative and insightful plots and graphs based on the regression results.
+    Evaluate the performance of the methods and code styles.
+    The results and analysis are contained in the PDF attached with the files.
+
+Notably, the best performing models for both prediction and classifiction are submitted to a community kaggle competition held by the course convenor. Amongst the teams participated, the final prediction model (Bagging regression trees) achieved an MSE of 0.303, achieving a rank of 1/38 in the competition. Additionally, the final classification model (Bagging regression trees) achieved a rank of 23/35 with a final rating of 0.927.
